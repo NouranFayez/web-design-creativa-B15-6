@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+
+/* global style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.bg-light{
+    background-color: lightgrey;
+}
+.padding{
+    padding: 3% 0;
+}
+.flex-box{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+        align-items: center;
+}
+.d-flex{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-start (default) , flex-end , center , space-between , space-around , space-evenly */
+    justify-content: space-between;
+    /* stretch , flex-start , flex-end , center  */
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    /* flex-start (default) , flex-end , center , space-between , space-around , space-evenly */
+    align-content: space-evenly;
+    /* row , row-reverse , column , column-reverse */
+    flex-direction:row;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+nav{
+    padding: 1% 0;
+}
+nav ul {
+    width: 35%;
+}
+nav h1{
+    font-size: 45px;
+}
+
+.card{
+    width: 30%;
+    background-color: white;
+    padding: 2%;
+    border: 1px solid;
+}
+
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
