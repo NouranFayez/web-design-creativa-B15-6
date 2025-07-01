@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+ul,ol{ list-style-position: inside; }
+nav ul{ list-style-type: none;}
+a{ text-decoration: none;}
+.logo-font{ font-family: 'Rubik'!important;}
+.text-center{ text-align: center;}
+.d-flex{ display: flex; flex-wrap: wrap; align-items: center;}
+
+.justify-content-between{ justify-content: space-between;}
+
+.bg-main{ background-color: aqua;}
+
+
+
+
+.bd-second{ background-color: beige;}
+
+.main-color{ color: aquamarine;}
+.second-color{ color: aquamarine;}
+.text-muted{ font-weight: 300; color:gray}
+.py-3{
+    padding: 3% 0;
+}
+.conatiner{
+    width: 90%;
+    margin: auto;
+}
+
+.w-15{ width:15%}
+.w-30{ width: 30%; }
+.w-20{ width: 20%;}
+/*hover active*/
+/* a:visited{
+    background-color: red;
+    color:black;
+    padding: 2%;
+    display: inline-block;
+} */
+.searchbar input{
+    border:none;
+    background-color: #eee;
+    border-radius: 5px;
+    width: 100%;
+    padding: 2%;
+}
+
+input[type="search"]:focus{
+    /* background-color: red; */
+    outline: none;
+
+}
+::placeholder{
+    color: lightblue
+}
+/* input[type="text"]:focus */
+
+.c1{position: relative;}
+.c2{ position: absolute; right: 2%; top:1%}
+
+
+.test{
+    height: 500px;
+    background-color: wheat;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
