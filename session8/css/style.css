@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 3000px;
+    perspective: 1000px;
+}
+
+/* .d1{
+    width: 2rem;
+    height: 12.5rem;
+    background-color: red; */
+    /* rotate , scale, skew , translate */
+    /* transform: translate(150px, 150px); */
+    /* transform: translateY(5rem); */
+    /* position: absolute;
+    z-index: 5; */
+    /* margin: 10% auto;
+    transform: rotateX(0deg); */
+   /* transform:  rotate(45deg); */
+   /* color: white; */
+   /* transform: scale(0.5); */
+   /* transform: skew(30deg); */
+   /* backface-visibility: hidden; */
+/* }
+.d1:hover{
+    width: 15rem;
+    background-color: blue;
+    transform: rotateX(45deg);
+transition: all 2s */
+/* , background-color 3s; */
+/* } */
+/* .d1:hover{
+    border-radius: 50%;
+    background-color: blue;
+} */
+ /* .d2{
+    height: 15rem;
+    width: 15rem;
+    background-color: blueviolet; */
+    /* position:absolute;
+    z-index: 10; */
+ /* } */
+
+
+ /* .parent{
+    margin: 10% auto;
+    width: 12rem;
+    height: 12rem; */
+    /* background-color: black; */
+/* }
+.parent:hover .child{
+    transform: rotateX(180deg);
+    transition: all 1s;
+}
+ .child{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transform: rotateX(0deg) ;
+    backface-visibility: hidden;
+ } */
+/* .absolute{ position: absolute;}
+.relative{ position: relative;}
+.parent{
+    width: 20rem;
+    height: 20rem;
+    margin: 10% auto;
+}
+.face, .back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transition: all 2s;
+}
+img{ width:100%;
+height: 100%;}
+.face{
+    transform: rotateX(0deg)
+}
+.back{    
+    transform: rotateX(180deg);
+    background: red;
+    color:white;
+}
+.parent:hover .face{
+        transform: rotateX(180deg)
+
+}
+.parent:hover .back{
+        transform: rotateX(0deg)
+
+} */
+
+/* .animated{
+    height: 15rem;
+    width:15rem;
+    background: red;
+    margin: 10% auto;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    /* animation-delay: 5s; */
+    /* animation-timing-function: c; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-direction: alternate-reverse;
+}
+
+@keyframes myAnimation { */
+    /* from{ background: red;}
+    to{ background: black;} */
+    /* 0%{ background: red;}
+    25%{background: blue;}
+    50%{background: brown;}
+    100%{background: yellow;}
+} */
+
+/* section{
+    background-image: url(../images/road.png);
+    height: 15rem;
+    background-size: contain;
+    overflow: hidden;
+}
+
+img{
+    margin-left: -100%;
+    height: 75px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-delay: 5s;
+}
+
+
+@keyframes move{
+    from{ margin-left: -100%;}
+    to { margin-left: 100%;}
+} */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: auto;
+    width:90%;
+}
+section div{
+    background: red;
+    width:30%;
+    height: 200px;
+}
+
+/* responsive */
+
+@media (max-width: 576px) and (min-width: 0px) {
+    section div{ width:70%}
+}
+@media (max-width:768) and (min-width:577px){
+
+}
+@media (min-width:769) and (max-width:1200px){
+    
+}
